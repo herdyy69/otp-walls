@@ -53,19 +53,21 @@ const Index = () => {
         <div className="flex flex-row flex-wrap items-center justify-center gap-2">
           {dbs.map((item, index) => {
             return (
-              <div className="card w-[330px] h-[450px] bg-[#e50108] shadow-xl border-2 border-white">
+              <div className="card w-[330px] bg-[#e50108] shadow-xl border-2 border-white">
                 <figure>
-                  <Image
-                    src={
-                      item.image === '/images/'
-                        ? '/images/logo-walls.webp'
-                        : item.image
-                    }
-                    alt={item.title}
-                    width={280}
-                    height={250}
-                    className="rounded-b-md border-x-2 border-b-2 border-white object-cover object-center"
-                  />
+                  {item.image === '/images/' ? null : (
+                    <Image
+                      src={
+                        item.image === '/images/'
+                          ? '/images/logo-walls.webp'
+                          : item.image
+                      }
+                      alt={item.title}
+                      width={280}
+                      height={250}
+                      className="rounded-b-md border-x-2 border-b-2 border-white object-cover object-center"
+                    />
+                  )}
                 </figure>
                 <div className="card-body">
                   <h2 className="card-title">{item.title}</h2>
