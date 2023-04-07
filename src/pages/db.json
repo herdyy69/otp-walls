@@ -79,7 +79,7 @@
     },
     {
         "id": 13,
-        "title": "PADDLE POP OCHI STRAWBERY VAN",
+        "title": "PADDLE POP MOCHI STRAWBERY VAN",
         "price": 133200,
         "pcs" : 50,
         "image": "/images/"
@@ -143,7 +143,7 @@
     {
         "id": 22,
         "title": "SOLERO FRUIT MANGGA",
-        "price": 16000,
+        "price": 160000,
         "pcs" : 36,
         "image": "/images/"
     },
@@ -170,7 +170,7 @@
     },
     {
         "id": 26,
-        "title": "CORNETTO DISC CHOC0",
+        "title": "CORNETTO DISC CHOCO",
         "price": 266600,
         "pcs" : 24,
         "image": "/images/"
